@@ -1,0 +1,116 @@
+.container{
+    background-color: darkgrey;
+}
+label{
+    color: blue;
+}
+#menu{
+    background-color: black;
+    height: 70px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+#menu ul li{
+    list-style: none;
+    display: inline;
+}
+#menu ul li a{
+    text-decoration: none;
+    margin: 40px;
+    color: white;
+}
+#con-col{
+    background-color: rosybrown;
+    border-radius: 10px;
+}
+#sub-menu{
+    background-color: darkseagreen;
+    height: 200px;
+    border-radius: 10px;
+}
+#col-con{
+    background-color: brown;
+    border-radius: 10px;
+    padding: 20px;
+}
+#col-con1{
+    background-color: blueviolet;
+    border-radius: 10px;
+    margin-top: 25px;
+    padding: 20px;
+}
+h5{
+    color: yellow;
+}
+h4{
+    color: blueviolet;
+}
+#a{
+    background-color: blueviolet;
+}
+#b{
+    background-color: brown;
+}
+span,p{
+    color: orange;
+}
+#sub-menu{
+    background-color: black;
+    height: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+}
+input{
+    border: 2px solid black;
+    width: 100%;
+    padding: 5px;
+    border-radius: 10px;
+}
+h6{
+    color: blueviolet;
+}
+a{
+    text-decoration: none;
+}
+@media(max-width:600px){
+    #menu{
+        background-color: black;
+        height: 180px;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    }
+    #menu ul li{
+        list-style: none;
+        display: table-header-group;
+    }
+    #menu ul li a{
+        text-decoration: none;
+        margin: 10px;
+        color: white;
+    }
+    #a{
+        background-color: white;
+    }
+    #b{
+        background-color: white;
+    }
+    .container{
+        background-color: white;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
